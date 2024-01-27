@@ -17,9 +17,9 @@ link1.addEventListener('click', () => {
 });
 
 link2.addEventListener('click', () => {
-    scrollToElement('.column', 1);
+    scrollToElement('.header', 1);
 });
 
 link3.addEventListener('click', () => {
-    scrollToElement('.column');
+    scrollToElement('.header');
 });
