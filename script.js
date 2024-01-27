@@ -13,7 +13,7 @@ const link2 = document.getElementById("link2");
 const link3 = document.getElementById("link3");
 
 link1.addEventListener('click', () => {
-    scrollToElement('.header');
+    scrollToElement('.header', 1);
 });
 
 link2.addEventListener('click', () => {
@@ -21,5 +21,5 @@ link2.addEventListener('click', () => {
 });
 
 link3.addEventListener('click', () => {
-    scrollToElement('.header');
+    scrollToElement('.header', 1);
 });
