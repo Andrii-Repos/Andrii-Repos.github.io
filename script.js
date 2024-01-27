@@ -17,7 +17,6 @@ link1.addEventListener('click', () => {
 });
 
 link2.addEventListener('click', () => {
-    // Scroll to the second element with "header" class
     scrollToElement('.column', 1);
 });
 
